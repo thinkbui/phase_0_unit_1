@@ -47,10 +47,11 @@ The "push" command takes the latest version of files from the local repository a
 The "reset" command reverts changes to an older version of the tracked files.
 
 #### rm
-<!-- Your defnition here -->
+<!-- Your defnition here --> 
 The "rm" command changes files listed in the parameters to no longer be tracked by the repository.
 
 #### status
+<!-- Your defnition here --> 
 The "status" command list the files in the directory that are either not track or are pending commit.
 
 
