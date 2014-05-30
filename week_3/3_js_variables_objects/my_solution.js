@@ -1,34 +1,34 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself, with:] on this challenge. By Myself
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// declare secretNumber and set to 7
+// declare password and set to "just open the door"
+// declare allowedIn and set to false
+// declare member and set first value as "John" and fourth value as "Mary"
 
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
+var secretNumber = 7;
+var password = 'just open the door';
+var allowedIn = false;
+var members = ['John','Alice','Bob','Mary'];
 
 
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
-
+//I thought my code was concise enough not to be refactored in any way since it is only necessary to declare them once and set the initial values since they aren't altered in any way by the tests.  The array 'members' could be altered to make it longer or populate the unchecked values something else or even null, but other than that, this is as concise as it can be.
 
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
+// The trouble I ran into with this challenge was that I haven't diagnosed from error messages returned to the command line for some time, so I initially thought that there was a problem with the throw command inside the assert function and kept thinking that until I saw the comment that the assert function and all the tests should not be altered in any way and made me realize it was a problem with lack of variable declaration.  I also need to review how to read the error annotations as it took me a long time to figure out that I missed the assignment operator '=' when declaring the 'members' array.
 // 
 // 
 // 
