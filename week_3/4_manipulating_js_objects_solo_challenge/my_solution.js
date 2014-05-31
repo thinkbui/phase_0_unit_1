@@ -45,7 +45,17 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = {name:"Carson"};
+terah.children.carter = {name:"Carter"};
+terah.children.colton = {name:"Colton"};
+adam.children = terah.children;
 
 
 
@@ -55,8 +65,8 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
+// This challenge continued highlighting my discomfort outside more inflexible languages like Java.  I'm still used to defining object types and using constructors to create objects while any new properties require extending the object definition.  It feels very awkward to me to add/delete properties of individual objects willy-nilly, even if it is a lot simpler than going through the Java route.
+// I do like how Node is smart enough to know that the spouse properties of terah and adam were circular and indicated that in the console printout of terah.
 // 
 // 
 // 
